@@ -28,7 +28,7 @@ jobs:
           host: broker.hivemq.com
           port: 1883
           topic: "guinee"
-          message: "Test hivemq"
+          message: "Le site web du repo ${{ github.repository }} a bien été deployé par ${{ github.actor }}"
           username: ''
           password: '' 
       # - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
