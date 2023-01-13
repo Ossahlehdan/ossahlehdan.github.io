@@ -21,7 +21,7 @@ jobs:
         run: |
           pip install mkdocs
           mkdocs gh-deploy --force
-     - name: cours-devops
+      - name: cours-devops
         uses: juhrlass/mqtt-action@master
         with:
           protocol: mqtt
