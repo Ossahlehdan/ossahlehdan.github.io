@@ -39,6 +39,6 @@ jobs:
       - name: build and publish docker hub
         run: |
           printenv
-          docker build hasso/ossahlehdan-website:test .
+          docker build -t hasso/ossahlehdan-website:test .
           docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p  ${{ secrets.DOCKERHUB_PASSWORD }}
           docker push hasso/ossahlehdan-website:test   
