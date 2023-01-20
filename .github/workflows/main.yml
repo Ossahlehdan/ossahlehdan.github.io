@@ -3,6 +3,9 @@ on:
   push:
     tags:
       - '*'
+    branches:
+      - 'main'
+      - 'dev'
 permissions:
   contents: write
 jobs:
