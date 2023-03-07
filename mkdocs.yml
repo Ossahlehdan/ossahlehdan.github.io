@@ -1,6 +1,8 @@
 site_name: hadhel
 site_url: https://ossahlehdan.github.io/
 theme: readthedocs
+  highlightjs: true
+  
 nav:
   - Home: index.md
   - Git: git.md
